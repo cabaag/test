@@ -51,6 +51,7 @@ const Question: FunctionComponent<QuestionProps> = ({ question, field, error }) 
           fullWidth
           inputProps={{ ...question.props }}
           helperText={error ? 'Incorrect entry' : ''}
+          required
           {...field}
         />
       );
