@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "What's your name?",
+    "type": "text",
+    "validations": ["^[a-zA-Z\\s]*$"],
+    "name": "name",
+    "props": {
+      "maxLength": 30
+    }
+  },
+  {
+    "id": 2,
+    "title": "How old are you?",
+    "type": "number",
+    "name": "age",
+    "props": {
+      "max": 100,
+      "min": 18
+    }
+  },
+  {
+    "id": 3,
+    "title": "Choose your country?",
+    "type": "select",
+    "name": "country",
+    "options": [
+      {
+        "label": "United states",
+        "value": "us"
+      },
+      {
+        "label": "México",
+        "value": "mx"
+      }
+    ]
+  }
+]
